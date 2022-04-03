@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Moje hobby - gitary</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<script src="java/changesize.js"></script>
+	<script src="java/database.js"></script>
+	<script src="java/jQuery.min.js"></script>
+	<script src="java/gallery.js"></script>
+	<script src="java/scroll.js"></script>
+	<script src="java/start.js"></script>
+</head>
+
+<body onload="start();">
+
+	<div id="container">
+		<header>
+			<div id="text">Moje hobby - gitary</div>
+			<div id="restext">Moje hobby - gitary</div>
+		</header>
+
+		<nav>
+		
+			<ol>
+				<li>
+					<a href="index.html">Strona główna</a>
+				</li>
+				<li>
+					<a href="rodzaje.html">Rodzaje</a>
+					<ul>
+						<li><a href="rodzaje.html#akustyczna">Akustyczna</a></li>
+						<li><a href="rodzaje.html#elektryczna">Elektryczna</a></li>
+						<li><a href="rodzaje.html#basowa">Basowa</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="gitarzysci.html">Gitarzysći</a>
+				</li>
+				<li>
+					<a href="akcesoria.html">Akcesoria</a>
+				</li>
+			</ol>
+			
+			<div id="navi">
+				<a href="index.html"><div class="nvg">Strona główna</div></a>
+				<a href="rodzaje.html"><div class="nvg">Rodzaje</div></a>
+				<div style="clear:both;"></div>
+				<a href="gitarzysci.html"><div class="nvg">Gitarzyści</div></a>
+				<a href="akcesoria.html"><div class="nvg">Akcesoria</div></a>
+				<div style="clear:both;"></div>
+			</div>
+
+		</nav>
+
+		<main>
+				
+			<div id="head1">
+				<b>GITARZYŚCI</b>
+			</div>
+			
+			<div class="guitarist"><img src="img/gitarzysci/hendrix.jpg" class="git" onclick="opengal(0)" alt="image">
+			<div class="opis">Jimi Hendrix</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/slash.jpg" class="git" onclick="opengal(1)" alt="image">
+			<div class="opis">Slash</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/page.jpg" class="git" onclick="opengal(2)" alt="image">
+			<div class="opis">Jimmy Page</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/vanhalen.jpg" class="git" onclick="opengal(3)" alt="image">
+			<div class="opis">Eddie Van Halen</div></div>
+			<div style="clear:both;"></div>
+				
+			<div class="guitarist"><img src="img/gitarzysci/root.jpg" class="git" onclick="opengal(4)" alt="image">
+			<div class="opis">James Root</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/hammett.jpg" class="git" onclick="opengal(5)" alt="image">
+			<div class="opis">Kirk Hammett</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/petrucci.jpg" class="git" onclick="opengal(6)" alt="image">
+			<div class="opis">John Petrucci</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/schuldiner.jpg" class="git" onclick="opengal(7)" alt="image">
+			<div class="opis">Chuck Schuldiner</div></div>
+			<div style="clear:both;"></div>
+				
+			<div class="guitarist"><img src="img/gitarzysci/borysewicz.jpg" class="git" onclick="opengal(8)" alt="image">
+			<div class="opis">Jan Borysewicz</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/skawinski.jpg" class="git" onclick="opengal(9)" alt="image">
+			<div class="opis">Grzegorz Skawiński</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/kozakiewicz.jpg" class="git" onclick="opengal(10)" alt="image">
+			<div class="opis">Dariusz Kozakiewicz</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/styczynski.jpg" class="git" onclick="opengal(11)" alt="image">
+			<div class="opis">Jerzy Styczyński</div></div>
+			<div style="clear:both;"></div>
+				
+			<div class="guitarist"><img src="img/gitarzysci/hoffmann.jpg" class="git" onclick="opengal(12)" alt="image">
+			<div class="opis">Wojciech Hoffmann</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/nowak.jpg" class="git" onclick="opengal(13)" alt="image">
+			<div class="opis">Andrzej Nowak</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/nergal.jpg" class="git" onclick="opengal(14)" alt="image">
+			<div class="opis">Adam Darski</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/peter.jpg" class="git" onclick="opengal(15)" alt="image">
+			<div class="opis">Piotr Wiwczarek</div></div>
+			<div style="clear:both;"></div>
+				
+			<div id="head2">
+				<b>BASIŚCI</b>
+			</div>
+			
+			<div class="guitarist"><img src="img/gitarzysci/flea.jpg" class="git" onclick="opengal(16)" alt="image">
+			<div class="opis">Flea</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/mccartney.jpg" class="git" onclick="opengal(17)" alt="image"> 
+			<div class="opis">Paul McCartney</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/burton.jpg" class="git" onclick="opengal(18)" alt="image">
+			<div class="opis">Cliff Burton</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/gray.jpg" class="git" onclick="opengal(19)" alt="image">
+			<div class="opis">Paul Gray</div></div>
+			<div style="clear:both;"></div>
+				
+			<div class="guitarist"><img src="img/gitarzysci/pilich.jpg" class="git" onclick="opengal(20)" alt="image">
+			<div class="opis">Wojciech Pilichowski</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/tkaczyk.jpg" class="git" onclick="opengal(21)" alt="image">
+			<div class="opis">Waldemar Tkaczyk</div></div>
+			<div class="res"></div>
+			<div class="guitarist"><img src="img/gitarzysci/kielich.jpg" class="git" onclick="opengal(22)" alt="image">
+			<div class="opis">Krzysztof Kieliszkiewicz</div></div>
+			<div class="guitarist"><img src="img/gitarzysci/orion.jpg" class="git" onclick="opengal(23)" alt="image">
+			<div class="opis">Orion</div></div>
+			<div style="clear:both;"></div>
+	
+			<br/><br/>
+			
+		</main>
+
+		<footer>
+			<div id="foot1">
+				<div id="setting" style="float:left;">Ustawienia</div>
+			
+				<div class="change">
+					<div class="settings1" style="float:left;">Zmiana rozmiaru czcionki : </div>
+					<div id="size1" onclick="changesize('20px', '7px', '7px', '0px')">A</div> 
+					<div id="size2" onclick="changesize('18px', '7.5px', '4.5px', '2px')">A</div>
+					<div id="size3" onclick="changesize('16px', '7.5px', '2.5px', '4px')">A</div>
+					<div style="clear:both;"></div>
+				</div>
+				
+				<div class="responsive"></div>
+				
+				<div class="change">
+					<div class="settings2" style="float:left;">Zmiana kolorystyki : </div>
+					<div class="colors" style="background-color:#444;" onclick="changecolor('#444','#000','#222','#565656')"></div>
+					<div class="colors" style="background-color:#555;" onclick="changecolor('#555','#111','#333','#676767')"></div>
+					<div class="colors" style="background-color:#666;" onclick="changecolor('#666','#222','#444','#787878')"></div>
+					<div class="colors" style="background-color:#777;" onclick="changecolor('#777','#333','#555','#898989')"></div>
+					<div style="clear:both;"></div>
+				</div>
+				
+				<div class="responsive2"></div>
+				
+				<div class="change1" style="padding-top:3px;">
+					
+					<span style="border-left:2px solid white;padding-right:7px;"></span>
+					<button onclick="lokal()">Zapisz</button>
+					<button onclick="usun()">Usuń ustawienia</button>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div id="foot">Moje hobby - gitary; Autor: Jakub Antoszek</div>
+		</footer>
+	</div>
+
+</body>
+
+</html>

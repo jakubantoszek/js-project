@@ -1,0 +1,26 @@
+var t = []
+
+t[0] = "Jimi Hendrix (The Jimi Hendrix Experience)"
+t[1] = "Slash (Guns'n'Roses)"
+t[2] = "Jimmy Page (Led Zeppelin)"
+t[3] = "Eddie Van Halen (Van Halen)"
+t[4] = "James Root (Slipknot)"
+t[5] = "Kirk Hammett (Metallica)"
+t[6] = "John Petrucci (Dream Theater)"
+t[7] = "Chuck Schuldiner (Death)"
+t[8] = "Jan Borysewicz (Lady Pank)"
+t[9] = "Grzegorz Skawiński (Kombii, O.N.A.)"
+t[10] = "Dariusz Kozakiewicz (Perfect)"
+t[11] = "Jerzy Styczyński (Dżem)"
+t[12] = "Wojciech Hoffmann (Turbo)"
+t[13] = "Andrzej Nowak (TSA)"
+t[14] = 'Adam "Nergal" Darski (Behemoth)'
+t[15] = 'Piotr "Peter" Wiwczarek (Vader)' 
+t[16] = "Flea (Red Hot Chili Peppers)"
+t[17] = "Paul McCartney (The Beatles)"
+t[18] = "Cliff Burton (Metallica)"
+t[19] = "Paul Gray (Slipknot)"
+t[20] = "Wojciech Pilichowski (Jan Bo)"
+t[21] = "Waldemar Tkaczyk (Kombii, O.N.A.)"
+t[22] = "Krzysztof Kieliszkiewicz (Lady Pank)"
+t[23] = 'Tomasz "Orion" Wróblewski (Behemoth)'
